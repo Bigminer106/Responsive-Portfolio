@@ -125,3 +125,7 @@ nav ul li a:hover {
 .linkage {
   color: black;
 }
+
+@media screen and (max-width: 960px) {
+  
+}
