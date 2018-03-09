@@ -5,6 +5,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background:url('../images/footer_lodyas.png');
 }
 
 nav {
