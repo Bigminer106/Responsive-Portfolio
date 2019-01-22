@@ -59,6 +59,11 @@ nav {
   padding-top: 10px;
 }
 
+ul {
+  text-align: center;
+  color: black;
+}
+
 .past {
   font-size: 30px;
   text-decoration: underline black;
@@ -69,6 +74,16 @@ nav {
 .pastProject {
   height: 200px;
   width: 200px;
+}
+
+.contact {
+  font-size: 28px;
+  text-decoration: underline black;
+  text-align: center;
+}
+
+.linkage {
+  color: black;
 }
 
 @media screen and (max-width: 980px) {
