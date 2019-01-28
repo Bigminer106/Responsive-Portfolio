@@ -20,9 +20,11 @@ If you add a form field, you will need to add it here.
 $email_address = $_REQUEST['email_address'] ;
 $comments = $_REQUEST['comments'] ;
 $name = $_REQUEST['name'] ;
+$subject = $_REQUEST['subject'] ;
 $msg = 
 "First Name: " . $name . "\r\n" . 
 "Email: " . $email_address . "\r\n" . 
+"Subject: " . $subject . "\r\n" . 
 "Comments: " . $comments ;
 
 /*
@@ -54,7 +56,7 @@ header( "Location: $feedback_page" );
 }
 
 // If the form fields are empty, redirect to the error page.
-elseif (empty($name) || empty($email_address) || empty($comments)) {
+elseif (empty($name) || empty($email_address) || empty($comments) || empty($subject)) {
 header( "Location: $error_page" );
 }
 
@@ -62,7 +64,7 @@ header( "Location: $error_page" );
 If email injection is detected, redirect to the error page.
 If you add a form field, you should add it here.
 */
-elseif ( isInjected($email_address) || isInjected($name)  || isInjected($comments) ) {
+elseif ( isInjected($email_address) || isInjected($name)  || isInjected($comments) || isInjected($subject) ) {
 header( "Location: $error_page" );
 }
 

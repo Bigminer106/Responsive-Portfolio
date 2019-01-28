@@ -10,9 +10,19 @@ body {
 }
 
 nav {
-  background: blue;
+  background: steelblue;
   overflow: hidden;
   height: 50px;
+  box-shadow: 0px 5px 15px steelblue;
+}
+
+hr {
+  width: 75%
+}
+
+.content ul {
+  text-align: center;
+  color: black;
 }
 
 .name {
@@ -27,36 +37,34 @@ nav {
   text-align: center;
   color: black;
   padding-top: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .headshot {
   display: block;
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 533px;
   margin: 0 auto;
   margin-top: 10px;
   align-content: center;
+  box-shadow: 5px 5px 15px gray;
 }
 
 .content {
-  flex: 1 0 auto;
   margin-bottom: -16px;
 }
 
 .footer {
   height: 50px;
   width: 100%;
-  background: blue;
+  background: steelblue;
   font-size: 12px;
   color: white;
   text-align: center;
   text-decoration: underline;
   padding-top: 10px;
-}
-
-ul {
-  text-align: center;
-  color: black;
+  box-shadow: 0px -5px 15px steelblue;
 }
 
 .past {
@@ -72,13 +80,19 @@ ul {
 }
 
 .contact {
+  margin-left: 33%;
+  margin-right: 33%;
   font-size: 30px;
   text-decoration: underline;
   text-align: center;
 }
 
-.linkage {
-  color: black;
+.email-form {
+  padding-left: 35%;
+}
+
+.input {
+  width: 350px;
 }
 
 @media screen and (max-width: 980px) {
