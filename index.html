@@ -89,7 +89,29 @@
     <div class="content">
       <h1 class="contact">Contact</h1>
       <br>
-      
+      <form method="post" action="send_mail.php">
+        <p>
+          <label>Name
+            <input type="text" name="first_name" required>
+          </label> 
+        </p>
+
+        <p>
+          <label>Email 
+            <input type="email" name="email_address" required>
+          </label>
+        </p>
+        
+        <p>
+          <label>Comments
+            <textarea name="comments" maxlength="500" required></textarea>
+          </label>
+        </p>
+
+        <p>
+          <button>Submit the form</button>
+        </p>
+      </form>
     </div>
     <br><br>
 
