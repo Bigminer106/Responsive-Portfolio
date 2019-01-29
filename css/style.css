@@ -39,6 +39,7 @@ hr {
   padding-top: 5px;
   margin-left: 150px;
   margin-right: 150px;
+  height: 2.5em;
 }
 
 .headshot {
@@ -68,7 +69,7 @@ hr {
 }
 
 .past {
-  font-size: 30px;
+  font-size: 32px;
   text-decoration: underline;
   text-align: center;
   margin-top: 10px;
@@ -82,17 +83,18 @@ hr {
 .contact {
   margin-left: 33%;
   margin-right: 33%;
-  font-size: 30px;
+  font-size: 32px;
   text-decoration: underline;
   text-align: center;
 }
 
 .email-form {
-  padding-left: 35%;
+  padding-left: 33%;
+  padding-right: 33%;
 }
 
 .input {
-  width: 350px;
+  width: 100%;
 }
 
 @media screen and (max-width: 980px) {
