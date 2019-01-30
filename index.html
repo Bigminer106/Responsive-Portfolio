@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Adam Miner</title>
+
+  <!-- Link In Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Other Stylesheets -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/reset.css">
 </head>
@@ -34,62 +39,71 @@
 
       <p class="bio">Feel free to visit my portfolio below for a look at some of my past projects.  Also, check out my <a href="github.com/Bigminer106">Github</a> for a more in-depth look.</p>
     </div>
-    <br><br><hr><br>
+    <br><hr>
 
     <!-- Project List -->
-    <div class="content">
-      <h1 class="past">Projects</h1>
-      <br><br>
-      <ul>
+    <h1 class="past">Projects</h1><br>
+    <div class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
 
-        <li><a href="bigminer106.github.io/PokeTrivia"><h3>PokéTrivia</h3></a>
-        <br><img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Ffc00.deviantart.net%2Ffs70%2Fi%2F2010%2F231%2F7%2F1%2FPokeball_Template_by_Poke_Lab.png&f=1" class="pastProject">
-          <ul class="bullets">
-            <li>Pokémon Trivia Game, with original 151</li>
-            <li>HTML, CSS, JavaScript, Node, PokeAPI</li>
-          </ul>
-        </li>
-        <br><br>
+        <div class="carousel-item active">
+          <a href="bigminer106.github.io/PokeTrivia">
+            <img class="pastProject" src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Ffc00.deviantart.net%2Ffs70%2Fi%2F2010%2F231%2F7%2F1%2FPokeball_Template_by_Poke_Lab.png&f=1" alt="PokeBall">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>PokeTrivia</h3>
+            <p>Pokemon Trivia game featuring the original 151 Pokemon</p>
+            <p>HTML, CSS, JavaScript/jQuery, Node.js, PokeAPI</p>
+          </div>
+        </div>
 
-        <li><a href="github.com/Bigminer106/MTG-Reference"><h3>MTG Reference</h3></a><br>
-          <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Flh3.googleusercontent.com%2F-KXigHKKUkAE%2FVAgFpYlxqFI%2FAAAAAAAAAOU%2FbmYipS1Yazw%2Fs530-p%2Fplaneswalker_symbol_by_drdraze-d6b8ml7.png&f=1" class="pastProject" alt="MTG Planeswalker">
-          <ul class="bullets">
-            <li>Magic the Gathering API</li>
-            <li>Knex.js, Node.js</li>
-          </ul>
-        </li>
-        <br><br>
+        <div class="carousel-item">
+          <a href="github.com/Bigminer106/MTG-Reference">
+            <img class="pastProject" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Flh3.googleusercontent.com%2F-KXigHKKUkAE%2FVAgFpYlxqFI%2FAAAAAAAAAOU%2FbmYipS1Yazw%2Fs530-p%2Fplaneswalker_symbol_by_drdraze-d6b8ml7.png&f=1" alt="MTG Planeswalker">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>MTG Reference</h3>
+            <p>Magic the Gathering API</p>
+            <p>JavaScript, Knex.js, Node.js</p>
+          </div>
+        </div>
 
-        <li><a href="the-dude-abides.github.io/bar-crawl-project/"><h3>Bar Crawl Project</h3>
-        <br><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fjetaany.org%2Fwp-content%2Fuploads%2F2014%2F04%2F136103950_640.jpg&f=1" alt="Bar Crawl" class="pastProject"></a>
-          <ul class="bullets">
-            <li>Bar Crawl creator website with event filters</li>
-            <li>HTML, CSS, JavaScript, Node, Uber and Google Weather APIs</li>
-          </ul>
-        </li>
-        <br><br>
+        <div class="carousel-item">
+          <a href="the-dude-abides.github.io/bar-crawl-project/">
+            <img class="pastProject" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fjetaany.org%2Fwp-content%2Fuploads%2F2014%2F04%2F136103950_640.jpg&f=1" alt="Bar Crawl">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Build Your Own Bar Crawl</h3>
+            <p>Bar crawl creator website featuring event filters</p>
+            <p>HTML, CSS, JavaScript, Node, Uber and Google Weather APIs</p>
+          </div>
+        </div>
 
-        <li><a href="bigminer106.github.io/Hangman-Game/"><h3>Hangman Homework</h3>
-        <br><img src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.timvandevall.com%2Fwp-content%2Fuploads%2F2014%2F04%2FPrintable-Hangman-Game.jpg&f=1" alt="Hangman Game" class="pastProject"></a>
-          <ul class="bullets">
-            <li>Hangman game</li>
-            <li>HTML, CSS, JavaScript, Node</li>
-          </ul>
-        </li>
-        <br><br>
+        <div class="carousel-item">
+          <a href="bigminer106.github.io/Hangman-Game/">
+            <img class="pastProject" src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.timvandevall.com%2Fwp-content%2Fuploads%2F2014%2F04%2FPrintable-Hangman-Game.jpg&f=1" alt="Hangman">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Hangman Game</h3>
+            <p>Simple JavaScript Hangman game</p>
+            <p>HTML, CSS, JavaScript, Node.js</p>
+          </div>
+        </div>
 
-        <li><a href="github.com/Bigminer106/bamazon"><h3>Bamazon MySQL Homework</h3>
-        <br><img src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1240079072%2Flogo-mysql-170x170_400x400.png&f=1" alt="MySQL Logo" class="pastProject"></a>
-          <ul class="bullets">
-            <li>Bamazon CLI assignment</li>
-            <li>MySQL, MongoDB, JavaScript, Node</li>
-          </ul>
-        </li>
-        
-      </ul>
-      <br><br><hr>
+        <div class="carousel-item">
+          <a href="github.com/Bigminer106/bamazon">
+            <img class="pastProject" src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1240079072%2Flogo-mysql-170x170_400x400.png&f=1" alt="MySQL Logo">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Bamazon</h3>
+            <p>Bamazon Command Line Interface</p>
+            <p>MySQL, MongoDB, JavaScript, Node.js</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <br><br>
+    <br>
+    <hr>
 
     <!-- Contact -->
     <div class="content">
@@ -117,5 +131,10 @@
       <p>Copyright 2018 | Adam Miner</p>
     </footer>
   </div>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
