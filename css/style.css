@@ -63,9 +63,14 @@ hr {
   font-size: 12px;
   color: white;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: underline white;
   padding-top: 10px;
   box-shadow: 0px -5px 15px steelblue;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline white;
 }
 
 .pastProject {
@@ -74,23 +79,22 @@ hr {
 }
 
 .carousel {
-  align-self: center;
   text-align: center;
-  height: 400px;
+  height: 5%;
   width: 60%;
   margin-left: 20%;
   background-color: steelblue;
-  padding-top: 100px;
+  padding-top: 75px;
   box-shadow: 5px 5px 15px steelblue;
 }
 
 .carousel-caption h2 {
-  color: black;
-  text-decoration: underline black;
+  color: white;
+  text-decoration: underline white;
 }
 
 .carousel-caption p {
-  color: black;
+  color: white;
 }
 
 .past {
@@ -116,7 +120,11 @@ hr {
 
 .input {
   align-self: center;
-  width: 100%;
+  width: 250%;
+}
+
+#comments {
+  width: 242%;
 }
 
 @media screen and (max-width: 980px) {
@@ -128,7 +136,10 @@ hr {
   .pastProject {
     height: 150px;
     width: 150px;
-    margin-left: 15%;
+  }
+
+  .carousel {
+    height: 
   }
 }
 
@@ -141,7 +152,6 @@ hr {
   .pastProject {
     height: 100px;
     width: 100px;
-    margin-left: 10%;
   }
 }
 
@@ -154,6 +164,5 @@ hr {
   .pastProject {
     height: 50px;
     width: 50px;
-    margin-left: 5%;
   }
 }
